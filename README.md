@@ -13,15 +13,11 @@ DB_DEFAULT_DB=
 DB_PORT=
 ACCESS_TOKEN_EXPIRE=
 REFRESH_TOKEN_EXPIRE=
-```
-
-## Important!!! Make sure you generate new keys
-# Generate new keys: https://travistidwell.com/jsencrypt/demo/
 ACCESS_TOKEN_PUBLIC_KEY=
 ACCESS_TOKEN_PRIVATE_KEY=
 REFRESH_TOKEN_PRIVATE_KEY=
 REFRESH_TOKEN_PUBLIC_KEY=
-
+```
 
 Routes
 
