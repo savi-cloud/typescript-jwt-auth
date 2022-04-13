@@ -4,6 +4,7 @@ yarn add @types/body-parser @types/config @types/cors @types/express @types/node
 
 
 # env file
+```
 HTTP_PORT=
 DB_HOST=
 DB_USER=
@@ -12,6 +13,7 @@ DB_DEFAULT_DB=
 DB_PORT=
 ACCESS_TOKEN_EXPIRE=
 REFRESH_TOKEN_EXPIRE=
+```
 
 ## Important!!! Make sure you generate new keys
 # Generate new keys: https://travistidwell.com/jsencrypt/demo/
