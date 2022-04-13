@@ -3,6 +3,24 @@ yarn add express yup config cors express mongoose pino pino-pretty dayjs bcrypt 
 yarn add @types/body-parser @types/config @types/cors @types/express @types/node @types/yup @types/pino @types/mongoose @types/bcrypt @types/jsonwebtoken @types/lodash @types/nanoid ts-node typescript -D
 
 
+# env file
+HTTP_PORT=
+DB_HOST=
+DB_USER=
+DB_PASSWORD=
+DB_DEFAULT_DB=
+DB_PORT=
+ACCESS_TOKEN_EXPIRE=
+REFRESH_TOKEN_EXPIRE=
+
+## Important!!! Make sure you generate new keys
+# Generate new keys: https://travistidwell.com/jsencrypt/demo/
+ACCESS_TOKEN_PUBLIC_KEY=
+ACCESS_TOKEN_PRIVATE_KEY=
+REFRESH_TOKEN_PRIVATE_KEY=
+REFRESH_TOKEN_PUBLIC_KEY=
+
+
 Routes
 
 /api/user/create-user
